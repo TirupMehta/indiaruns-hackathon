@@ -1,6 +1,6 @@
 # Redrob Hackathon — Submission Metadata
 
-team_name: "tirupmehta-recruiter"
+team_name: "Pixel Perfect"
 
 primary_contact:
   name: "Tirup Mehta"
@@ -10,7 +10,19 @@ primary_contact:
 team_members:
   - name: "Tirup Mehta"
     email: "tirupmehta1@gmail.com"
-    role: "ML Engineer"
+    role: "Engineering Student"
+
+  - name: "Kaushal Thakor"
+    email: "kaushalthakor281@gmail.com"
+    role: "Engineering Student"
+
+  - name: "Dhiya Devmurari"
+    email: "dhiyadevmurari@gmail.com"
+    role: "Engineering Student"
+
+  - name: "Akhil Soigama"
+    email: "akhilsoigama@gmail.com"
+    role: "Engineering Student"
 
 github_repo: "https://github.com/tirupmehta/indiaruns-hackathon"
 
