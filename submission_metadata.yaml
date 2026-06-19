@@ -1,0 +1,51 @@
+# Redrob Hackathon — Submission Metadata
+
+team_name: "tirupmehta-recruiter"
+
+primary_contact:
+  name: "Tirup Mehta"
+  email: "tirupmehta1@gmail.com"
+  phone: "+91-9099855022"
+
+team_members:
+  - name: "Tirup Mehta"
+    email: "tirupmehta1@gmail.com"
+    role: "ML Engineer"
+
+github_repo: "https://github.com/tirupmehta/indiaruns-hackathon"
+
+reproduce_command: "python rank.py --candidates ./data-and-ai-challange/India_runs_data_and_ai_challenge/candidates.jsonl --out ./submission.csv"
+
+compute:
+  platform: "Local CPU Workstation"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.12.2"
+  os: "Windows 11"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: false
+  pre_computation_time_minutes: 0
+
+ai_tools_used:
+  - "Gemini"
+
+ai_usage_summary: |
+  Used Gemini to review codebase structure, debug format validation issues, and refine the heuristic multipliers. No candidate profile data was shared with external APIs.
+
+methodology_summary: |
+  Dual-Layer Composite Scoring Engine combining local dense retrieval embeddings
+  (all-MiniLM-L6-v2, 100% offline CPU) with a 16-factor career intelligence multiplier
+  covering ML experience depth, promotion trajectory, consulting-history penalty,
+  notice period curve, location fit, platform engagement signals, education tier,
+  GitHub activity, skill assessments, profile completeness, and endorsements.
+  O(1) honeypot pruning (expert-skill duration anomaly + calendar date inconsistency).
+  Metadata pre-filtering reduces 100K candidates to ~6,600 before transformer inference,
+  completing end-to-end in ~121 seconds on CPU.
+
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true
